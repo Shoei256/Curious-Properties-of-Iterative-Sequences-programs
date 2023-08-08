@@ -6,7 +6,7 @@ def func(x):
     for n in str(x):
         s^=factorial(int(n))
     return s
-all=[itertools.combinations_with_replacement(list(range(1,10)), i) for i in range(1,8)]#all pattern you need to check
+all=[itertools.combinations_with_replacement(list(range(1,10)), i) for i in range(1,7)]#all pattern you need to check
 
 result=set()
 for i,n in enumerate(itertools.chain(*all)):
